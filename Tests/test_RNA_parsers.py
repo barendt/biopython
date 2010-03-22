@@ -1,12 +1,19 @@
 #!/usr/bin/env python
 
-from unittest import TestCase, main
-from Secstruc import Secstruc
-from SecstrucParsers import parse_vienna, parse_bpseq, parse_ct
+__author__  = "Kristian Rother"
+__contributors__ = "Tomasz Puton"
+__credits__ = ["Lukasz Kozlowski, Natalia Szostak, Joanna Kasprzak, Sandra Smit"]
+__maintainer__ = "Kristian Rother"
+__email__ = "krother@rubor.de"
+__status__ = "Prototype"
 
-VIENNA = open('test_data/sample.vienna').readlines()
-BPSEQ = open('test_data/sample.bpseq').readlines()
-CT = open('test_data/sample.ct').readlines()
+from unittest import TestCase, main
+from Bio.RNA.Secstruc import Secstruc
+from Bio.RNA.SecstrucParsers import parse_vienna, parse_bpseq, parse_ct
+
+VIENNA = open('RNA/sample.vienna').readlines()
+BPSEQ = open('RNA/sample.bpseq').readlines()
+CT = open('RNA/sample.ct').readlines()
 
 class ViennaParserTests(TestCase):
     

@@ -1,12 +1,17 @@
 #!/usr/bin/env python
-
-from Secstruc import Secstruc, SecstrucError
-
 #
-# Parsers for common secondary structure formats
+# SecstrucParsers.py 
 #
+# Module parsing common RNA secondary structure formats.
+#
+__author__  = "Kristian Rother"
+__contributors__ = "Tomasz Puton"
+__credits__ = ["Lukasz Kozlowski, Natalia Szostak, Joanna Kasprzak, Sandra Smit"]
+__maintainer__ = "Kristian Rother"
+__email__ = "krother@rubor.de"
+__status__ = "Prototype"
 
-from Secstruc import Secstruc, PseudoknotSecstruc
+from Secstruc import Secstruc, PseudoknotSecstruc, SecstrucError
 
 def parse_vienna(data): 
     """Returns a (sequence, secstruc) tuple."""

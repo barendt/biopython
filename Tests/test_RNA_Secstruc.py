@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 
+__author__  = "Kristian Rother"
+__contributors__ = "Tomasz Puton"
+__credits__ = ["Lukasz Kozlowski, Natalia Szostak, Joanna Kasprzak, Sandra Smit"]
+__maintainer__ = "Kristian Rother"
+__email__ = "krother@rubor.de"
+__status__ = "Prototype"
+
 from unittest import TestCase, main
-from RNA.Secstruc.Secstruc import Secstruc, PseudoknotSecstruc
+from Bio.RNA.Secstruc import Secstruc, PseudoknotSecstruc
 
 class SecstrucTests(TestCase):
 

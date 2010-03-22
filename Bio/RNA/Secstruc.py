@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+#
+# Secstruc.py 
+#
+# Module managing dot-bracket RNA secondary structures.
+#
+__author__  = "Kristian Rother"
+__contributors__ = "Tomasz Puton"
+__credits__ = ["Lukasz Kozlowski, Natalia Szostak, Joanna Kasprzak, Sandra Smit"]
+__maintainer__ = "Kristian Rother"
+__email__ = "krother@rubor.de"
+__status__ = "Prototype"
 
 import re
 
