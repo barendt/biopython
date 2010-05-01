@@ -52,7 +52,7 @@ def parse_ct(data):
     ss = ""
     for line in data:
         t = line.strip().split()
-        if len(t)== 6:
+        if len(t) >= 6:
             seq += t[1]
             index = int(t[2])
             pair = int(t[4])-1
